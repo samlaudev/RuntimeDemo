@@ -17,6 +17,7 @@
 		1A04A2A61B492816003DE2A4 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A04A2A51B492816003DE2A4 /* Message.m */; };
 		1AADFBD21B49306900E4B5C8 /* MessageForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AADFBD11B49306900E4B5C8 /* MessageForwarding.m */; };
 		1AF7BEE91B49524E003A0216 /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7BEE81B49524E003A0216 /* NSObject+AssociatedObject.m */; };
+		1AF7BEEC1B495D8B003A0216 /* UIViewController+Logging.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7BEEB1B495D8B003A0216 /* UIViewController+Logging.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		1AADFBD11B49306900E4B5C8 /* MessageForwarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageForwarding.m; sourceTree = "<group>"; };
 		1AF7BEE71B49524E003A0216 /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
 		1AF7BEE81B49524E003A0216 /* NSObject+AssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObject.m"; sourceTree = "<group>"; };
+		1AF7BEEA1B495D8B003A0216 /* UIViewController+Logging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Logging.h"; sourceTree = "<group>"; };
+		1AF7BEEB1B495D8B003A0216 /* UIViewController+Logging.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Logging.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +103,8 @@
 				1AADFBD11B49306900E4B5C8 /* MessageForwarding.m */,
 				1AF7BEE71B49524E003A0216 /* NSObject+AssociatedObject.h */,
 				1AF7BEE81B49524E003A0216 /* NSObject+AssociatedObject.m */,
+				1AF7BEEA1B495D8B003A0216 /* UIViewController+Logging.h */,
+				1AF7BEEB1B495D8B003A0216 /* UIViewController+Logging.m */,
 				1A04A2881B4927E4003DE2A4 /* Main.storyboard */,
 				1A04A28B1B4927E4003DE2A4 /* Assets.xcassets */,
 				1A04A28D1B4927E4003DE2A4 /* LaunchScreen.storyboard */,
@@ -227,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AF7BEE91B49524E003A0216 /* NSObject+AssociatedObject.m in Sources */,
+				1AF7BEEC1B495D8B003A0216 /* UIViewController+Logging.m in Sources */,
 				1A04A2871B4927E4003DE2A4 /* ViewController.m in Sources */,
 				1A04A2A61B492816003DE2A4 /* Message.m in Sources */,
 				1AADFBD21B49306900E4B5C8 /* MessageForwarding.m in Sources */,
