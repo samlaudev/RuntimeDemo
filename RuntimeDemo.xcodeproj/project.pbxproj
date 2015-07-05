@@ -16,6 +16,7 @@
 		1A04A29A1B4927E5003DE2A4 /* RuntimeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A04A2991B4927E5003DE2A4 /* RuntimeDemoTests.m */; };
 		1A04A2A61B492816003DE2A4 /* Message.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A04A2A51B492816003DE2A4 /* Message.m */; };
 		1AADFBD21B49306900E4B5C8 /* MessageForwarding.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AADFBD11B49306900E4B5C8 /* MessageForwarding.m */; };
+		1AF7BEE91B49524E003A0216 /* NSObject+AssociatedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AF7BEE81B49524E003A0216 /* NSObject+AssociatedObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,8 @@
 		1A04A2A51B492816003DE2A4 /* Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Message.m; sourceTree = "<group>"; };
 		1AADFBD01B49306900E4B5C8 /* MessageForwarding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageForwarding.h; sourceTree = "<group>"; };
 		1AADFBD11B49306900E4B5C8 /* MessageForwarding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageForwarding.m; sourceTree = "<group>"; };
+		1AF7BEE71B49524E003A0216 /* NSObject+AssociatedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObject.h"; sourceTree = "<group>"; };
+		1AF7BEE81B49524E003A0216 /* NSObject+AssociatedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObject.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				1A04A2A51B492816003DE2A4 /* Message.m */,
 				1AADFBD01B49306900E4B5C8 /* MessageForwarding.h */,
 				1AADFBD11B49306900E4B5C8 /* MessageForwarding.m */,
+				1AF7BEE71B49524E003A0216 /* NSObject+AssociatedObject.h */,
+				1AF7BEE81B49524E003A0216 /* NSObject+AssociatedObject.m */,
 				1A04A2881B4927E4003DE2A4 /* Main.storyboard */,
 				1A04A28B1B4927E4003DE2A4 /* Assets.xcassets */,
 				1A04A28D1B4927E4003DE2A4 /* LaunchScreen.storyboard */,
@@ -221,6 +226,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1AF7BEE91B49524E003A0216 /* NSObject+AssociatedObject.m in Sources */,
 				1A04A2871B4927E4003DE2A4 /* ViewController.m in Sources */,
 				1A04A2A61B492816003DE2A4 /* Message.m in Sources */,
 				1AADFBD21B49306900E4B5C8 /* MessageForwarding.m in Sources */,

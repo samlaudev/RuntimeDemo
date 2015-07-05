@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "Message.h"
+#import "NSObject+AssociatedObject.h"
 
 @interface ViewController ()
 
@@ -20,6 +21,10 @@
     
     Message *message = [Message new];
     [message sendMessage:@"Sam Lau"];
+    
+    NSObject *objc = [NSObject new];
+    objc.associatedObject = @"Extend Category";
+    NSLog(@"associatedObject is = %@", objc.associatedObject);
 }
 
 @end
